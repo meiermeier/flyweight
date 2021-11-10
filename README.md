@@ -13,10 +13,10 @@ class A(metaclass=Flyweight):
 
 A(1) 
 # init 1
-A(1) # no new instance will be created and no call will be made
+A(1) # no new instance will be created and no __init__ call will be made
 A(1)
 A(2)
 # init 2
-A(2) # no new instance will be created and no call will be made
+A(2) # no new instance will be created and no __init__ call will be made
 A(2)
 ```
