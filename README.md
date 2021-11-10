@@ -3,8 +3,9 @@ Python metaclass implentation of flyweight pattern
 
 ### Examples
 
-Open web page and take a screenshot:
 ```py
+from flyweight import Flyweight
+
 class A(metaclass=Flyweight):
     def __init__(self, a):
         print('init', a)
