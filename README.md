@@ -1,5 +1,5 @@
 # flyweight
-Python metaclass implentation of flyweight pattern
+Python metaclass implementation of flyweight pattern
 
 ### Examples
 
